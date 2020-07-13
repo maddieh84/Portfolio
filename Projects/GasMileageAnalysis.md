@@ -141,4 +141,4 @@ plot(lm3,which=1,main="Figure 2")
 plot(lm3,which=2,main="Figure 3")
 ```
 
-<img src="GasMileageAnalysis_files/figure-markdown_github/fig2-2.png" style="display: block; margin: auto;" />
+![](GasMileageAnalysis_files/figure-markdown_github/unnamed-chunk-10-1.png)
