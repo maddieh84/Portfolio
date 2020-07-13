@@ -1,12 +1,9 @@
 ---
 output: html_document
 ---
-\begin{center}
-Project 1
-\end{center}
 ### Summary
 Using the mtcars data set in R, a data set of a collection of cars, this analysis explores the relationship between a set of variables and miles per gallon (MPG) (outcome). We seek to determine whether automatic or manual is better for MPG, and to quantify the differences in MPG between the two.  
-
+***
 ### Part 1: Is an automatic or manual transmission better for MPG?
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
