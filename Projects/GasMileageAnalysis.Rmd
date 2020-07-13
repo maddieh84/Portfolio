@@ -1,7 +1,8 @@
 ---
-output: rmarkdown::github_document
+output:
+  md_document:
+    variant: markdown_github
 ---
-
 Project 1
 
 ### Summary
@@ -83,7 +84,6 @@ summary(lm3)$coef[6]
 ```
 With all other factors held constant, manual transmission cars get about 1.809 more miles per gallon than automatic transmission cars.  
 ***
-\newpage
 
 ## Appendix 
 
@@ -96,6 +96,8 @@ boxplot(mpg~am, data=mtcars, main ='Figure 1 \nFuel Efficiency',ylab='MPG',
 
 ```{r fig2,fig.width=5, fig.height=3,fig.align = "center"}
 plot(lm3,which=1,main="Figure 2")
+```
+```{r}
 plot(lm3,which=2,main="Figure 3")
 ```
 
